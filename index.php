@@ -11,9 +11,9 @@
 
 <div class="container d-flex flex-wrap gap-3 justify-content-center">
         <?php
-        require_once 'Computer.php';
-        require_once 'Desktop.php';
-        require_once 'Laptop.php';
+        require_once './models/computer.php';
+        require_once './models/Desktop.php';
+        require_once './models/laptop.php';
         require_once 'Computer-db.php';
 
         foreach ($computers as $computer) {
