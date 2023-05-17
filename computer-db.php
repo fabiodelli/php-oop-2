@@ -1,8 +1,5 @@
 <?php
 
-use Models\Desktop;
-use Models\Laptop;
-
 $computers = [
     new Laptop("Dell", "Inspiron", "14 inch", "H470", "Backlit Keyboard"),
     new Desktop("Lenovo", "Legion", "None", "B450", "None"),

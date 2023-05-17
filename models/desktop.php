@@ -1,7 +1,4 @@
 <?php
-
-namespace Models;
-
 class Desktop extends Computer
 {
     protected $monitor;

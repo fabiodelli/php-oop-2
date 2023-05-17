@@ -1,7 +1,4 @@
 <?php
-
-namespace Models;
-
 class Computer
 {
     protected $brand;

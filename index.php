@@ -14,13 +14,13 @@
 
     <div class="container d-flex flex-wrap gap-3 justify-content-center">
         <?php
-        require_once './models/computer.php';
-        require_once './models/Desktop.php';
-        require_once './models/laptop.php';
-        require_once 'Computer-db.php';
+        require __DIR__ . '/models/computer.php';
+        require __DIR__ . '/models/desktop.php';
+        require __DIR__ . '/models/laptop.php';
+        require __DIR__ . '/computer-db.php';
 
         foreach ($computers as $computer) {
-            include 'card_template.php';
+            include __DIR__ .  '/card_template.php';
         }
         ?>
     </div>

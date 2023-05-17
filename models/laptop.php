@@ -1,7 +1,4 @@
 <?php
-
-namespace Models;
-
 class Laptop extends Computer
 {
     protected $monitor;
