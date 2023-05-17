@@ -5,7 +5,7 @@
             <?php echo $computer->getProductType(); ?>
         </h5>
         <p class="card-text">
-            <?php echo $computer->getDeviceInfo(); ?> 
+            <?php echo $computer->getDeviceInfo(); ?>
         </p>
         <a href="#" class="btn btn-primary">BUY NOW</a>
     </div>
