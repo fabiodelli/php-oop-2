@@ -8,6 +8,7 @@ class Computer
     {
         $this->brand = $brand;
         $this->model = $model;
+       
     }
 
     public function getProductType()
